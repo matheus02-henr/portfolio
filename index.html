@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Henrique R. Bacelar — Portfólio</title>
+  <style>
+    :root { --primaria: #b8860b; --texto: #222; --fundo: #fafafa; --cinza: #666; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--texto); background: var(--fundo); line-height: 1.6; }
+    header { background: var(--primaria); color: #fff; padding: 3rem 1.5rem; text-align: center; }
+    header h1 { margin: 0 0 .5rem; font-size: 2rem; }
+    header p { margin: 0; opacity: .95; }
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+    h2 { border-bottom: 2px solid var(--primaria); padding-bottom: .3rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .card { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 1.2rem; }
+    .card h3 { margin-top: 0; }
+    .card small { color: var(--cinza); }
+    .card a { color: var(--primaria); font-weight: 600; text-decoration: none; }
+    .card a:hover { text-decoration: underline; }
+    footer { text-align: center; color: var(--cinza); padding: 2rem 1rem; font-size: .9rem; }
+    footer a { color: var(--primaria); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Matheus Henrique R. Bacelar</h1>
+    <p>Estudante de Engenharia de Software · Portfólio acadêmico</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre</h2>
+      <p>Este repositório reúne os projetos desenvolvidos ao longo da graduação, organizados por disciplina e versionados com Git.</p>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Sistema de Telemetria</h3>
+          <small>SO · Redes · Banco de Dados · Web</small>
+          <p>Monitoramento em tempo real de infraestrutura.</p>
+          <a href="projetos/telemetria/">Ver projeto →</a>
+        </div>
+        <div class="card">
+          <h3>Redes — Tarefa 05</h3>
+          <small>Redes de Computadores</small>
+          <p>Subnetting e configuração de VLANs com port security no Packet Tracer.</p>
+          <a href="projetos/redes-tarefa05/">Ver projeto →</a>
+        </div>
+        <div class="card">
+          <h3>Guia de Engenharia de Software</h3>
+          <small>Engenharia de Software</small>
+          <p>Resumo das unidades com questões comentadas.</p>
+          <a href="projetos/engenharia-software/">Ver projeto →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://linkedin.com/in/SEU_PERFIL" target="_blank" rel="noopener">LinkedIn</a> ·
+    <a href="https://github.com/matheus02-henr/portfolio" target="_blank" rel="noopener">Repositório</a>
+  </footer>
+
+</body>
+</html>
